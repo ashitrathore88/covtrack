@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Covtrack</string>
+    <string name="todo">ਕਰਨਾ</string>
+    <string name="mobile">ਮੋਬਾਈਲ ਨੰਬਰ ਦਰਜ ਕਰੋ</string>
+    <string name="str_submit">ਸਬਮਿਟ ਕਰੋ</string>
+
+    <!-- Error messages -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mandatoryField">ਇਹ ਫੀਲਡ ਲਾਜ਼ਮੀ ਹੈ</string>
+    <string name="select_qualification">ਯੋਗਤਾ ਦੀ ਚੋਣ ਕਰੋ</string>
+    <string name="enterValidMobile">ਵੈਧ ਮੋਬਾਈਲ ਦਰਜ ਕਰੋ</string>
+    <string name="enterValidOTP">ਵੈਧ OTP ਦਰਜ ਕਰੋ</string>
+    <string name="str_otp">OTP</string>
+    <string name="str_enterotp">OTP ਦਰਜ ਕਰੋ</string>
+    <string name="str_signup">ਸਾਇਨ ਅਪ</string>
+    <string name="str_username">ਪੂਰਾ ਨਾਂਮ</string>
+    <string name="str_pincode">ਪਿੰਨ ਕੋਡ</string>
+    <string name="str_dob">ਜਨਮ ਤਾਰੀਖ</string>
+    <string name="str_age">ਉਮਰ</string>
+    <string name="str_address">ਪਤਾ</string>
+    <string name="str_remarks">ਟਿੱਪਣੀਆਂ *</string>
+    <string name="str_volunteer">ਕੀ ਤੁਸੀਂ ਵਲੰਟੀਅਰ ਬਣਨਾ ਚਾਹੁੰਦੇ ਹੋ?</string>
+    <string name="str_yes">ਹਾਂ</string>
+    <string name="str_no">ਨਹੀਂ</string>
+    <string name="str_worker">ਕੀ ਤੁਸੀਂ ਇੱਕ ਦਿਹਾੜੀ ਮਜ਼ਦੂਰ / ਮਜ਼ਦੂਰ ਹੋ?</string>
+    <string name="str_clear">ਸਾਫ</string>
+    <string name="str_open_camera">ਕੈਮਰਾ ਖੋਲ੍ਹਣ ਲਈ ਟੈਪ ਕਰੋ</string>
+
+    <string-array name="qualification_array">
+        <item>ਯੋਗਤਾ</item>
+        <item>ਵਿਚਕਾਰਲਾ</item>
+        <item>ਗ੍ਰੈਜੂਏਸ਼ਨ</item>
+        <item>ਪੀ.ਜੀ.</item>
+        <item>ਹੋਰ</item>
+    </string-array>
+    <string name="title_activity_home">ਹੋਮ</string>
+    <string name="title_home">ਹੋਮ</string>
+    <string name="title_dashboard">ਡੈਸ਼ਬੋਰਡ</string>
+    <string name="title_notifications">ਨੋਟੀਫਿਕੇਸ਼ਨ</string>
+    <string name="title_news">ਖ਼ਬਰਾਂ</string>
+    <string name="title_news_tabs">ਖ਼ਬਰਾਂ / ਸਰਕਾਰੀ ਆਦੇਸ਼</string>
+    <string name="title_map">ਨਜ਼ਦੀਕੀ ਕੋਵਿਡ -19 ਮਰੀਜ਼</string>
+    <string name="title_health_check">ਸਿਹਤ ਜਾਂਚ</string>
+    <string name="title_covt_stats">ਕੋਵਿਡ ਅੰਕੜੇ</string>
+    <string name="title_nav_map">ਨਕਸ਼ਾ</string>
+    <string name="title_realstats">ਰੀਅਲਟਾਈਮ ਅੰਕੜੇ</string>
+    <string name="title_govt_orders">ਸਰਕਾਰੀ ਆਦੇਸ਼</string>
+    <string name="title_videos">ਵੀਡੀਓ</string>
+    <string name="str_noNews">ਖ਼ਬਰਾਂ ਨਹੀਂ ਮਿਲੀਆਂ</string>
+
+    <string name="str_covidinfo">COVID-19 is caused by a coronavirus called SARS-CoV-2. Older adults and people who have severe underlying medical conditions like heart or lung disease or diabetes seem to be at higher risk for developing more serious complications from COVID-19 illness.\n\nIt is thought to spread mainly from person to person, mainly through respiratory droplets produced when an infected person coughs or sneezes. These droplets can land in the mouths or noses of people who are nearby or possibly be inhaled into the lungs. Spread is more likely when people are in close contact with one another (within about 6 feet).
+COVID-19 seems to be spreading easily and sustainably in the community (“community spread”) in many affected geographic areas. Community spread means people have been infected with the virus in an area, including some who are not sure how or where they became infected.</string>
+    <!--<string name="API_KEY_HERE">AIzaSyBng0WjQPXgQqpqHwNNek5A_lRFR1UjzlQ</string>-->
+    <string name="API_KEY_HERE">AIzaSyDKdBW2SMB7jxpNJRxOC9w3d6nzWcs64jQ</string>
+    <string name="title_logout">ਲਾੱਗ ਆਊਟ</string>
+    <string name="str_profile">ਪ੍ਰੋਫਾਈਲ</string>
+    <string name="str_faq">FAQ</string>
+    <string name="str_info">ਜਾਣਕਾਰੀ</string>
+    <string name="str_logout">ਲਾੱਗ ਆਊਟ</string>
+    <string name="str_login">ਲਾਗਿਨ</string>
+
+    <string name="str_emergency">ਐਮਰਜੈਂਸੀ ਕੰਟਰੋਲ ਰੂਮ</string>
+    <string name="str_helpline">ਹੈਲਪਲਾਈਨ</string>
+    <string name="str_doctor">ਡਾਕਟਰ ਨੂੰ ਕਾਲ ਕਰੋ</string>
+    <string name="str_gen_pass">ਕਰਫਿ ਪਾਸ ਬਣਾਓ</string>
+    <string name="str_report_gathering">ਸਮਾਜਿਕ ਇਕੱਠ ਬਾਰੇ ਸ਼ਿਕਾਇਤ</string>
+    <string name="title_sub_div">ਸਬ ਡਵੀਜ਼ਨ ਅਨੁਸਾਰ ਵੇਰਵੇ</string>
+    <string name="title_other_div">ਵਿਸ਼ਵ, ਭਾਰਤ ਅਤੇ ਪੰਜਾਬ ਅਪਡੇਟਸ</string>
+    <string name="str_sub_div">ਸਬ ਡਿਵੀਜ਼ਨ ਵਾਈਡ ਵੇਰਵਾ</string>
+
+    <string name="str_nav_dashboard">ਡੈਸ਼ਬੋਰਡ</string>
+    <string name="str_nav_connect_to_doc">ਡਾਕਟਰ ਨੂੰ ਫੋਨ</string>
+    <string name="str_generate_pass">ਕਰਫਿਊ ਪਾਸ ਬਣਾਓ</string>
+    <string name="str_covid_care_hospitals">ਕੋਵਿਡ ਕੇਅਰ ਹਸਪਤਾਲ</string>
+    <string name="str_emergency_control_room">ਐਮਰਜੈਂਸੀ ਕੰਟਰੋਲ ਰੂਮ</string>
+    <string name="str_facebook_page">ਫੇਸਬੁੱਕ</string>
+    <string name="str_covid_patients_near_me">ਨਜ਼ਦੀਕੀ ਕੋਵਿਡ -19 ਮਰੀਜ਼</string>
+    <string name="str_covid_awareness">ਕੋਵਿਡ -19 ਜਾਗਰੂਕਤਾ</string>
+    <string name="str_quarantine_booking">ਇਕਾਂਤਵਾਸ ਸਹੂਲਤ (ਬੁਕਿੰਗ)</string>
+    <string name="str_become_volunteer">ਵਾਲੰਟੀਅਰ ਬਣੋ</string>
+    <string name="str_donate">ਦਾਨ ਕਰੋ</string>
+    <string name="str_update_profile">ਪ੍ਰੋਫਾਈਲ ਅਪਡੇਟ ਕਰੋ</string>
+    <string name="str_unite_against">ਵਿਰੁੱਧ ਇਕਜੁੱਟ ਹੋਵੋ</string>
+    <string name="str_covid_19">ਕੋਵਿਡ -19</string>
+    <string name="str_do_you_want_to_logout">ਕੀ ਤੁਸੀਂ ਲੌਗ ਆਊਟ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?</string>
+    <string name="str_tested">ਜਾਂਚ ਕੀਤੇ</string>
+    <string name="str_postive">ਪੋਸਿਟੀਵੇ</string>
+    <string name="str_negative">ਨੇਗਟਿਵ</string>
+    <string name="str_confirmed">ਪੁਸ਼ਟੀ</string>
+    <string name="str_recovered">ਇਲਾਜ ਹੋਏ</string>
+    <string name="str_active">ਐਕਟਿਵ</string>
+    <string name="str_deaths">ਮੌਤਾਂ</string>
+    <string name="str_result_awaited">ਨਤੀਜਿਆਂ ਦੀ ਉਡੀਕ</string>
+    <string name="str_results">ਪੁਸ਼ਟੀ</string>
+    <string name="str_home_quarantined">ਘਰ ਵਿੱਚ ਇਕਾਂਤਵਾਸ</string>
+    <string name="str_hospital_quarantined">ਸਿਹਤ ਕੇਂਦਰ ਵਿੱਚ ਇਕਾਂਤਵਾਸ</string>
+    <string name="str_health_check">ਸਿਹਤ ਜਾਂਚ</string>
+    <string name="str_english">English</string>
+    <string name="str_punjabi">ਪੰਜਾਬੀ</string>
+    <string name="str_choose_language">ਕੋਈ ਭਾਸ਼ਾ ਚੁਣੋ :</string>
+    <string name="str_qualification">ਯੋਗਤਾ</string>
+    <string name="str_chart_title">ਸੰਗਰੂਰ ਜ਼ਿਲ੍ਹਾ : ਸੰਚਤ ਅੰਕੜੇ</string>
+    <string name="str_thank_you_txt">ਸਾਨੂੰ ਤੁਹਾਡਾ ਫਾਰਮ ਮਿਲ ਗਿਆ, ਧੰਨਵਾਦ</string>
+    <string name="str_select_region">ਹੇਠਾਂ ਦਿੱਤੀ ਸੂਚੀ ਵਿੱਚੋਂ ਖੇਤਰ ਚੁਣੋ</string>
+    <string name="str_caution_msg">ਜੇ ਤੁਹਾਨੂੰ ਖਾਂਸੀ, ਬੁਖਾਰ ਜਾਂ ਸਾਹ ਲੈਣ ਵਿੱਚ ਮੁਸ਼ਕਲ ਹੈ, ਅਤੇ ਤੁਸੀਂ ਚਿੰਤਤ ਹੋ ਕਿ ਤੁਹਾਨੂੰ ਕੋਰੋਨਾਵਾਇਰਸ ਹੋ ਸਕਦਾ ਹੈ, ਕਿਰਪਾ ਕਰਕੇ ਡਾਕਟਰ ਨਾਲ ਸਲਾਹ ਕਰੋ.</string>
+    <string name="str_beds">ਬਿਸਤਰੇ</string>
+    <string name="str_pehal_society">ਪਹਿਲ ਸੁਸਾਇਟੀ ਨੂੰ ਦਾਨ ਕਰੋ</string>
+    <string name="str_account_no">ਖਾਤਾ ਨੰ. : </string>
+    <string name="str_ifsc_code">ਆਈਐਫਐਸਸੀ ਕੋਡ : </string>
+    <string name="str_pan_code">ਪੈਨ ਨੰ. : </string>
+    <string name="str_other_donations">ਕਿਸੇ ਵੀ ਹੋਰ ਕਿਸਮ ਦੇ ਦਾਨ ਲਈ, ਕਿਰਪਾ ਕਰਕੇ ਸੰਪਰਕ ਕਰੋ : </string>
+    <string name="str_dro">ਦ ਰ ਓ : </string>
+    <string name="str_nazir">ਜ਼ਿਲ੍ਹਾ ਨਜ਼ੀਰ : </string>
+    <string name="str_pso">ਪ ਸ ਓ : </string>
+    <string name="str_cm_relief_fund">ਮੁੱਖ ਮੰਤਰੀ ਰਾਹਤ ਫੰਡ ਨੂੰ ਦਾਨ ਕਰੋ</string>
+    <string name="str_tax_relief_txt">**ਇਨਕਮ ਟੈਕਸ ਐਕਟ ਦੀ ਧਾਰਾ 80 ਜੀ ਤਹਿਤ ਆਮਦਨ ਟੈਕਸ ਤੋਂ ਛੋਟ ਹੈ.</string>
+    <string name="str_we_prefer">**ਅਸੀਂ ਨਕਦ ਤੋਂ ਵੱਧ ਸਮੱਗਰੀ ਦਾਨ ਨੂੰ ਤਰਜੀਹ ਦਿੰਦੇ ਹਾਂ.</string>
+    <string name="str_account">ਪ੍ਰੋਫਾਈਲ ਸੈਟਿੰਗਜ਼</string>
+    <string name="str_social">ਸੋਸ਼ਲ</string>
+    <string name="str_last_updated">ਅੱਪਡੇਟ ਕੀਤਾ: </string>
+    <string name="str_source"><u>ਸਰੋਤ</u> </string>
+    <string name="str_cured">ਇਲਾਜ ਹੋਏ </string>
+    <string name="str_assistant_commissioner">ਸਹਾਇਕ ਕਮਿਸ਼ਨਰ (ਜਨਰਲ)</string>
+    <string name="str_commissioner_name">ਅੰਕੁਰ ਮਹਿੰਦਰੂ</string>
+    <string name="str_district_office">ਡਿਸਟ੍ਰਿਕਟ ਰੇਵੇਣੂਏ ਅਫਸਰ</string>
+    <string name="str_district_officer_name">ਗਗਨਦੀਪ ਸਿੰਘ</string>
+    <string name="str_nazir_name">ਅਮਰਿੰਦਰ ਸਿੰਘ</string>
+    <string name="str_dc_office">ਡੀਸੀ ਦਫਤਰ</string>
+    <string name="str_dc_officer">ਜਸਵੀਰ ਸਿੰਘ</string>
+</resources>

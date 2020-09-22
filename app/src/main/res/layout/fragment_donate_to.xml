@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+            <RelativeLayout
+
+                android:elevation="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_20"
+                android:padding="@dimen/padding_5"
+                android:background="@drawable/item_top_bottom">
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:padding="3dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/str_pehal_society"
+                    android:textColor="@color/colorTextPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_account_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_title"
+                    android:ellipsize="end"
+                    android:layout_alignParentStart="true"
+                    android:maxLines="1"
+                    android:padding="3dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/str_account_no"
+                    android:textColor="@color/colorTextPrimary"
+                    android:textSize="15sp"
+                    />
+                <TextView
+                    android:id="@+id/tv_account_no_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_title"
+                    android:ellipsize="end"
+                    android:layout_alignParentEnd="true"
+                    android:layout_toEndOf="@+id/tv_account_no"
+                    android:maxLines="1"
+                    android:padding="3dp"
+                    android:text="151672234272"
+                    android:textColor="@color/colorTextPrimary"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/tv_ifsc_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_account_no"
+                    android:ellipsize="end"
+                    android:layout_alignParentStart="true"
+                    android:maxLines="1"
+                    android:padding="3dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/str_ifsc_code"
+                    android:textColor="@color/colorTextPrimary"
+                    android:textSize="15sp"
+                    />
+                <TextView
+                    android:id="@+id/tv_ifsc_code_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_account_no"
+                    android:ellipsize="end"
+                    android:layout_alignParentEnd="true"
+                    android:layout_toEndOf="@+id/tv_ifsc_code"
+                    android:maxLines="1"
+                    android:padding="3dp"
+                    android:text="INDB0000440"
+                    android:textColor="@color/colorTextPrimary"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/tv_pan_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_ifsc_code"
+                    android:ellipsize="end"
+                    android:layout_alignParentStart="true"
+                    android:maxLines="1"
+                    android:padding="3dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/str_pan_code"
+                    android:textColor="@color/colorTextPrimary"
+                    android:textSize="15sp"
+                    />
+                <TextView
+                    android:id="@+id/tv_pan_code_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_ifsc_code"
+                    android:ellipsize="end"
+                    android:layout_alignParentEnd="true"
+                    android:layout_toEndOf="@+id/tv_pan_code"
+                    android:maxLines="1"
+                    android:padding="3dp"
+                    android:text="AAGAP1564K"
+                    android:textColor="@color/colorTextPrimary"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/tv_pan_code"
+                    android:textColor="@color/colorGray"
+                    android:textSize="12sp"
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="@dimen/margin_5"
+                    android:text="@string/str_tax_relief_txt"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+
+                android:elevation="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_5"
+                android:layout_marginBottom="@dimen/margin_20"
+                android:background="@drawable/item_top_bottom">
+
+                <TextView
+                    android:id="@+id/tv_title2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:padding="3dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/str_other_donations"
+                    android:textColor="@color/colorTextPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_contact1"
+                    android:layout_below="@+id/tv_title2"
+                    android:padding="3dp"
+                    android:orientation="vertical">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:ellipsize="end"
+                        android:layout_alignParentStart="true"
+                        android:maxLines="1"
+
+                        android:text="@string/str_assistant_commissioner"
+                        android:textColor="@color/colorTextPrimary"
+                        android:textSize="11sp"
+                        />
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+                        <TextView
+                            android:id="@+id/tv_txt_contact1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:ellipsize="end"
+                            android:layout_alignParentStart="true"
+                            android:maxLines="1"
+
+                            android:layout_marginBottom="5dp"
+                            android:text="@string/str_commissioner_name"
+                            android:textColor="@color/colorTextPrimary"
+                            android:textSize="16sp"
+                            />
+                        <TextView
+                            android:id="@+id/tv_contact1_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:ellipsize="end"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignRight="@+id/tv_txt_contact1"
+                            android:maxLines="1"
+                            android:padding="3dp"
+                            android:text="01672 234128"
+                            android:textColor="@color/colorTextPrimary"
+                            android:textSize="15sp"
+                            android:textStyle="bold"/>
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_contact2"
+                    android:layout_below="@+id/tv_contact1"
+                    android:padding="3dp"
+                    android:orientation="vertical">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:ellipsize="end"
+                        android:layout_alignParentStart="true"
+                        android:maxLines="1"
+
+                        android:text="@string/str_district_office"
+                        android:textColor="@color/colorTextPrimary"
+                        android:textSize="11sp"
+                        />
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+                        <TextView
+                            android:id="@+id/tv_txt_contact2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:ellipsize="end"
+                            android:layout_alignParentStart="true"
+                            android:maxLines="1"
+
+                            android:layout_marginBottom="5dp"
+                            android:text="@string/str_district_officer_name"
+                            android:textColor="@color/colorTextPrimary"
+                            android:textSize="16sp"
+                            />
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:ellipsize="end"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignRight="@+id/tv_txt_contact2"
+                            android:maxLines="1"
+                            android:padding="3dp"
+                            android:text="+91 9814855222"
+                            android:textColor="@color/colorTextPrimary"
+                            android:textSize="15sp"
+                            android:textStyle="bold"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_contact3"
+                    android:layout_below="@+id/tv_contact2"
+                    android:padding="3dp"
+                    android:orientation="vertical">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:ellipsize="end"
+                        android:layout_alignParentStart="true"
+                        android:maxLines="1"
+
+                        android:text="@string/str_nazir"
+                        android:textColor="@color/colorTextPrimary"
+                        android:textSize="11sp"
+                        />
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+                        <TextView
+                            android:id="@+id/tv_txt_contact3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:ellipsize="end"
+                            android:layout_alignParentStart="true"
+                            android:maxLines="1"
+
+                            android:layout_marginBottom="5dp"
+                            android:text="@string/str_nazir_name"
+                            android:textColor="@color/colorTextPrimary"
+                            android:textSize="16sp"
+                            />
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:ellipsize="end"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignRight="@+id/tv_txt_contact3"
+                            android:maxLines="1"
+                            android:padding="3dp"
+                            android:text="+91 9855983377"
+                            android:textColor="@color/colorTextPrimary"
+                            android:textSize="15sp"
+                            android:textStyle="bold"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_contact4"
+                    android:layout_below="@+id/tv_contact3"
+                    android:padding="3dp"
+                    android:orientation="vertical">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:ellipsize="end"
+                        android:layout_alignParentStart="true"
+                        android:maxLines="1"
+
+                        android:text="@string/str_dc_office"
+                        android:textColor="@color/colorTextPrimary"
+                        android:textSize="11sp"
+                        />
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+                        <TextView
+                            android:id="@+id/tv_txt_contact4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:ellipsize="end"
+                            android:layout_alignParentStart="true"
+                            android:maxLines="1"
+
+                            android:layout_marginBottom="5dp"
+                            android:text="@string/str_dc_officer"
+                            android:textColor="@color/colorTextPrimary"
+                            android:textSize="16sp"
+                            />
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:ellipsize="end"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignRight="@+id/tv_txt_contact4"
+                            android:maxLines="1"
+                            android:padding="3dp"
+                            android:text="+91 8054601251"
+                            android:textColor="@color/colorTextPrimary"
+                            android:textSize="15sp"
+                            android:textStyle="bold"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/tv_contact4"
+                    android:textColor="@color/colorGray"
+                    android:textSize="12sp"
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="@dimen/margin_5"
+                    android:text="@string/str_we_prefer"/>
+            </RelativeLayout>
+            <RelativeLayout
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/padding_12"
+                >
+                <Button
+                    android:id="@+id/btn_donate_cm_relief_fund"
+                    style="@style/DonateButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/str_cm_relief_fund" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

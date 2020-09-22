@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rv_news"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:padding="3dp"
+        android:text="Title"
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:padding="3dp"
+        android:text="Description"
+        android:textColor="@color/colorPrimaryLite"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_source"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_desc"
+        android:layout_alignParentStart="true"
+        android:alpha="0.5"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:padding="3dp"
+        android:text="Source"
+        android:textColor="@color/colorPrimaryLite"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_desc"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/tv_source"
+        android:alpha="0.5"
+        android:ellipsize="end"
+        android:gravity="end"
+        android:maxLines="1"
+        android:padding="3dp"
+        android:text="Date"
+        android:textColor="@color/colorPrimaryLite"
+        android:textSize="15sp" />
+
+</RelativeLayout>

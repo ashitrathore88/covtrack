@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_question"
+        style="@style/CustomTextViewTitle_primaryColour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_volunteer" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_yes"
+            style="@style/CustomRadioButton_primaryColour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_yes"
+            android:theme="@style/CustomRadioButtonTheme_promaryColour" />
+
+        <RadioButton
+            android:id="@+id/rb_no"
+            style="@style/CustomRadioButton_primaryColour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/str_no"
+            android:theme="@style/CustomRadioButtonTheme_promaryColour" />
+    </RadioGroup>
+
+</LinearLayout>

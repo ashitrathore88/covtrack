@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".views.fragments.NewsTabsFragment">
+
+    <ImageView
+        android:id="@+id/img_graph"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:padding="5dp"
+        android:visibility="gone"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo" />
+
+    <WebView
+        android:id="@+id/graph_webview"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+
+        android:visibility="visible"
+        />
+
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimary"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="@color/color2"
+        app:tabIndicatorHeight="3dp"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="@color/colorWhite"
+        app:tabTextColor="@color/colorGray_lite" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

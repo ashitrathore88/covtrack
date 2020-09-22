@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Covtrack</string>
+    <string name="todo">todo</string>
+    <string name="mobile">Enter Mobile Number</string>
+    <string name="str_submit">Submit</string>
+
+    <!-- Error messages -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mandatoryField">This Field is mandatory</string>
+    <string name="select_qualification">select qualification</string>
+    <string name="enterValidMobile">Enter Valid Mobile</string>
+    <string name="enterValidOTP">Enter Valid OTP</string>
+    <string name="str_otp">OTP</string>
+    <string name="str_enterotp">Enter OTP</string>
+    <string name="str_signup">Signup</string>
+    <string name="str_username">Full Name</string>
+    <string name="str_pincode">Pincode</string>
+    <string name="str_dob">Date Of Birth</string>
+    <string name="str_age">Age</string>
+    <string name="str_address">Address</string>
+    <string name="str_remarks">Remarks *</string>
+    <string name="str_volunteer">Do you want to be a Volunteer</string>
+    <string name="str_yes">yes</string>
+    <string name="str_no">no</string>
+    <string name="str_worker">Are you a daily wage worker/ labourer</string>
+    <string name="str_clear">Clear</string>
+    <string name="str_open_camera">Tap to open Camera</string>
+
+    <string-array name="qualification_array">
+        <item>Qualification</item>
+        <item>Intermediate</item>
+        <item>Graduation</item>
+        <item>PG</item>
+        <item>Others</item>
+    </string-array>
+    <string name="title_activity_home">HOME</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_news">News</string>
+    <string name="title_news_tabs">News/Government Orders</string>
+    <string name="title_map">Find Nearest Covid-19 Patients</string>
+    <string name="title_health_check">Health Check</string>
+    <string name="title_covt_stats">Covid Stats</string>
+    <string name="title_nav_map">Covid Map</string>
+    <string name="title_realstats">Realtime Stats</string>
+    <string name="title_govt_orders">Govt Orders</string>
+    <string name="title_videos">Videos</string>
+    <string name="str_noNews">News not found</string>
+
+    <string name="str_covidinfo">COVID-19 is caused by a coronavirus called SARS-CoV-2. Older adults and people who have severe underlying medical conditions like heart or lung disease or diabetes seem to be at higher risk for developing more serious complications from COVID-19 illness.\n\nIt is thought to spread mainly from person to person, mainly through respiratory droplets produced when an infected person coughs or sneezes. These droplets can land in the mouths or noses of people who are nearby or possibly be inhaled into the lungs. Spread is more likely when people are in close contact with one another (within about 6 feet).
+COVID-19 seems to be spreading easily and sustainably in the community (“community spread”) in many affected geographic areas. Community spread means people have been infected with the virus in an area, including some who are not sure how or where they became infected.</string>
+    <!--<string name="API_KEY_HERE">AIzaSyBng0WjQPXgQqpqHwNNek5A_lRFR1UjzlQ</string>-->
+    <string name="API_KEY_HERE">AIzaSyDKdBW2SMB7jxpNJRxOC9w3d6nzWcs64jQ</string>
+    <string name="title_logout">Logout</string>
+    <string name="str_profile">Profile</string>
+    <string name="str_faq">FAQ</string>
+    <string name="str_info">Info</string>
+    <string name="str_logout">Logout</string>
+    <string name="str_login">Login</string>
+
+    <string name="str_emergency">Emergency Control Room</string>
+    <string name="str_helpline">Helpline</string>
+    <string name="str_doctor">Dial a doctor</string>
+    <string name="str_gen_pass">Generate Curfew Pass</string>
+    <string name="str_report_gathering">Report Mass Gathering</string>
+    <string name="title_sub_div">Sub Division Updates</string>
+    <string name="title_other_div">World, India and Punjab Updates</string>
+    <string name="str_sub_div">Sub Division Wise Details</string>
+
+    <string name="str_nav_dashboard">Dashboard</string>
+    <string name="str_nav_connect_to_doc">Connect to a Doctor</string>
+    <string name="str_generate_pass">Generate Curfew Pass</string>
+    <string name="str_covid_care_hospitals">Covid Care Hospitals</string>
+    <string name="str_emergency_control_room">Emergency Control Room</string>
+    <string name="str_facebook_page">Facebook</string>
+    <string name="str_covid_patients_near_me">Covid-19 Patients Near me</string>
+    <string name="str_covid_awareness">Covid-19 Awareness</string>
+    <string name="str_quarantine_booking">Quarantine Facility (Booking)</string>
+    <string name="str_become_volunteer">Become a Volunteer</string>
+    <string name="str_donate">Donate</string>
+    <string name="str_update_profile">Update Profile</string>
+    <string name="str_unite_against">Unite Against</string>
+    <string name="str_covid_19">COVID-19</string>
+    <string name="str_do_you_want_to_logout">Do you want to logout?</string>
+    <string name="str_tested">Total Tested</string>
+    <string name="str_postive">Positive</string>
+    <string name="str_negative">Negative</string>
+    <string name="str_confirmed">Confirmed</string>
+    <string name="str_recovered">Recovered</string>
+    <string name="str_active">Active</string>
+    <string name="str_deaths">Deaths</string>
+    <string name="str_result_awaited">Results Awaited</string>
+    <string name="str_results">Results</string>
+    <string name="str_home_quarantined">Home Quarantined</string>
+    <string name="str_hospital_quarantined">Hospital Quarantined</string>
+    <string name="str_health_check">Health Check</string>
+    <string name="str_english">English</string>
+    <string name="str_punjabi">ਪੰਜਾਬੀ</string>
+    <string name="str_choose_language">Choose a language :</string>
+    <string name="str_qualification">Qualification</string>
+    <string name="str_chart_title">Sangrur District: Cumulative Statistics</string>
+    <string name="str_thank_you_txt">We received your form, Thank you</string>
+    <string name="str_select_region">Select your region</string>
+    <string name="str_caution_msg">If you have a cough, a fever or difficulty breathing, and you are worried that you may have coronavirus, please consult with doctor.</string>
+    <string name="str_beds">Beds</string>
+    <string name="str_pehal_society">Donate to Pehal Society</string>
+    <string name="str_account_no">Account No. : </string>
+    <string name="str_ifsc_code">IFSC Code : </string>
+    <string name="str_pan_code">Pan No : </string>
+    <string name="str_other_donations">For any other donation of material, please contact : </string>
+    <string name="str_dro">DRO : </string>
+    <string name="str_nazir">District Nazir : </string>
+    <string name="str_pso">PSO : </string>
+    <string name="str_cm_relief_fund">Donate to CM Relief Fund</string>
+    <string name="str_tax_relief_txt">**Exempted from income tax under Section 80G of Income Tax Act.</string>
+    <string name="str_we_prefer">**We prefer donation of material over cash.</string>
+    <string name="str_account">Profile Settings</string>
+    <string name="str_social">Social</string>
+    <string name="str_last_updated">Last updated: </string>
+    <string name="str_source"><u>Source</u> </string>
+    <string name="str_cured">Cured </string>
+    <string name="str_assistant_commissioner">Assistant Commissioner (General)</string>
+    <string name="str_commissioner_name">Ankur Mahindroo</string>
+    <string name="str_district_office">District Revenue Officer</string>
+    <string name="str_district_officer_name">Gagandeep Singh</string>
+    <string name="str_nazir_name">Amrinder Singh</string>
+    <string name="str_dc_office">DC Office</string>
+    <string name="str_dc_officer">Jasvir Singh</string>
+</resources>

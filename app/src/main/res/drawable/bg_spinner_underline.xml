@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <item android:gravity="bottom">
+                <shape>
+                    <size android:height="1dp" />
+                    <!--<solid android:color="@color/colorPrimary" />-->
+                </shape>
+            </item>
+            <item>
+                <bitmap android:gravity="center|end"
+                    android:src="@drawable/down_arrow_white_png" />
+            </item>
+        </layer-list>
+
+    </item>
+
+</selector>

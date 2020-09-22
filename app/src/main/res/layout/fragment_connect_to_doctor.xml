@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.fragments.ConnectToDoctorFragment">
+
+    <RelativeLayout
+        android:id="@+id/header_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:paddingBottom="25dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingStart="20dp"
+            android:paddingBottom="10dp"
+            android:text="@string/str_select_region"
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="@dimen/txt_size_15" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_regions_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tv_title"
+            android:layout_marginTop="5dp"
+            android:paddingStart="@dimen/margin_10"
+            android:paddingEnd="@dimen/margin_10"
+            android:paddingBottom="@dimen/margin_10"
+            tools:listitem="@layout/item_region" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

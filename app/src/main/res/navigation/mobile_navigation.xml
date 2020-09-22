@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_covidstats">
+
+    <fragment
+        android:id="@+id/navigation_covidstats"
+        android:name="com.covid.covtrack.views.fragments.CovidStatsFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_covid_stats">
+        <action
+            android:id="@+id/action_navigation_covidstats_to_newsViewFragment"
+            app:destination="@id/newsViewFragment"
+            app:enterAnim="@anim/slide_from_right"
+            app:exitAnim="@anim/slide_to_left"
+            app:popEnterAnim="@anim/slide_from_left"
+            app:popExitAnim="@anim/slide_to_right" />
+        <action
+            android:id="@+id/action_navigation_covidstats_to_subDivisionFragment"
+            app:destination="@id/subDivisionFragment"
+            app:enterAnim="@anim/slide_from_right"
+            app:exitAnim="@anim/slide_to_left"
+            app:popEnterAnim="@anim/slide_from_left"
+            app:popExitAnim="@anim/slide_to_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_news_tab"
+        android:name="com.covid.covtrack.views.fragments.NewsTabsFragment"
+        android:label="@string/title_news"
+        tools:layout="@layout/fragment_news_tabs">
+        <action
+            android:id="@+id/action_navigation_news_to_newsViewFragment"
+            app:destination="@id/newsViewFragment"
+            app:enterAnim="@anim/slide_from_right"
+            app:exitAnim="@anim/slide_to_left"
+            app:popEnterAnim="@anim/slide_from_left"
+            app:popExitAnim="@anim/slide_to_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_map"
+        android:name="com.covid.covtrack.views.fragments.MapViewFragment"
+        android:label="@string/title_map"
+        tools:layout="@layout/fragment_map_view" />
+
+    <fragment
+        android:id="@+id/navigation_healthcheck"
+        android:name="com.covid.covtrack.views.fragments.HealthCheckFragment"
+        android:label="@string/title_health_check"
+        tools:layout="@layout/fragment_health_check" />
+    <fragment
+        android:id="@+id/navigation_news"
+        android:name="com.covid.covtrack.views.fragments.NewsFragment"
+        android:label="@string/title_news"
+        tools:layout="@layout/fragment_news" />
+    <fragment
+        android:id="@+id/newsViewFragment"
+        android:name="com.covid.covtrack.views.fragments.NewsViewFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_news_view" />
+    <fragment
+        android:id="@+id/subDivisionFragment"
+        android:name="com.covid.covtrack.views.fragments.SubDivisionFragment"
+        android:label="@string/str_sub_div"
+        tools:layout="@layout/fragment_sub_division" />
+</navigation>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="UnusedIds">
+
+    <group android:checkableBehavior="single">
+        <!--
+                <item
+                    android:id="@+id/nav_home"
+                    android:icon="@drawable/ic_stats"
+                    android:title="Home"/>
+        -->
+        <item
+            android:id="@+id/nav_covid_stats"
+            android:icon="@drawable/ic_dashboard"
+            android:title="@string/str_nav_dashboard" />
+        <item
+            android:id="@+id/nav_connect_doctor"
+            android:icon="@drawable/ic_connect_doctor"
+            android:title="@string/str_nav_connect_to_doc" />
+        <item
+            android:id="@+id/nav_generate_pass"
+            android:icon="@drawable/ic_generate_pass"
+            android:title="@string/str_generate_pass" />
+        <item
+            android:id="@+id/nav_care_hospitals"
+            android:icon="@drawable/ic_local_hospital"
+            android:title="@string/str_covid_care_hospitals" />
+
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_news"
+            android:title="@string/title_news" />
+
+        <item
+            android:id="@+id/nav_control_room"
+            android:icon="@drawable/ic_control_room"
+            android:title="@string/str_emergency_control_room" />
+        <!--
+        <item
+        android:id="@+id/nav_health_check"
+        android:icon="@drawable/ic_health_check"
+        android:title="@string/str_health_check"/>
+        -->
+        <item
+            android:id="@+id/nav_patients_near_me"
+            android:icon="@drawable/ic_bubble"
+            android:title="@string/str_covid_patients_near_me" />
+        <item
+            android:id="@+id/nav_awareness"
+            android:icon="@drawable/ic_awareness"
+            android:title="@string/str_covid_awareness" />
+        <item
+            android:id="@+id/nav_quarantine_facility"
+            android:icon="@drawable/ic_covid_places"
+            android:title="@string/str_quarantine_booking" />
+        <item
+            android:id="@+id/nav_report_gathering"
+            android:icon="@drawable/ic_report_gathering"
+            android:title="@string/str_report_gathering" />
+        <item
+            android:id="@+id/nav_become_volunteer"
+            android:icon="@drawable/ic_volunteer"
+            android:title="@string/str_become_volunteer" />
+        <item
+            android:id="@+id/nav_donate"
+            android:icon="@drawable/ic_donate"
+            android:title="@string/str_donate" />
+
+
+        <item
+            android:id="@+id/nav_faq"
+            android:icon="@drawable/ic_faq"
+            android:title="@string/str_faq" />
+        <item android:title="@string/str_social">
+            <menu>
+                <item
+                    android:id="@+id/nav_facebook_page"
+                    android:icon="@drawable/ic_facebook_circle"
+                    android:title="@string/str_facebook_page" />
+            </menu>
+        </item>
+        <item android:title="@string/str_account">
+            <menu>
+                <item
+                    android:id="@+id/nav_update_profile"
+                    android:icon="@drawable/ic_profile"
+                    android:title="@string/str_update_profile" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_logout_circle"
+                    android:title="@string/str_logout" />
+            </menu>
+        </item>
+
+
+    </group>
+
+
+
+
+</menu>

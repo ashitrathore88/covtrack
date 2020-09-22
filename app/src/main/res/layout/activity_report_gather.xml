@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        tools:context=".views.activities.ReportGatheringActivity">
+
+        <LinearLayout
+            android:id="@+id/linear_root"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="@dimen/margin_10"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/open_camera_btn"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@color/colorWhite"
+                android:orientation="vertical">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="300dp"
+                   android:gravity="center"
+                   android:orientation="vertical">
+                   <ImageView
+
+                       android:src="@drawable/camera"
+                       android:scaleType="center"
+                       android:layout_centerInParent="true"
+                       android:layout_width="80dp"
+                       android:layout_height="80dp" />
+
+                   <TextView
+
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="30dp"
+                       android:layout_centerInParent="true"
+                       android:text="@string/str_open_camera"
+                       android:textColor="@color/colorPrimaryLite"
+                       android:textSize="15sp" />
+
+               </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/img_view"
+
+                    android:scaleType="centerCrop"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </RelativeLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_remark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:theme="@style/CustomTextInputLayout2">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tie_remark"
+                    style="@style/CustomTextInputEditor2"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:cursorVisible="true"
+                    android:gravity="left|top"
+                    android:hint="@string/str_remarks"
+                    android:imeOptions="actionDone"
+                    android:inputType="textMultiLine"
+                     />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/btn_submit"
+                style="@style/CustomButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:text="@string/str_submit" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</layout>

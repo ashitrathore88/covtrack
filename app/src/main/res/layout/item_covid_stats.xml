@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:textStyle="bold"
+        android:text="This is title"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/txt_size_20" />
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_tested"
+            style="@style/CustomTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_3"
+            android:layout_weight="1"
+            android:text="@string/title_health_check" />
+
+        <TextView
+            android:id="@+id/tv_positive"
+            style="@style/CustomTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_3"
+            android:layout_weight="1"
+            android:text="@string/title_health_check" />
+
+        <TextView
+            android:id="@+id/tv_negative"
+            style="@style/CustomTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/title_health_check" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="@dimen/margin_3"
+        android:layout_marginEnd="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_recovered"
+            style="@style/CustomTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_3"
+            android:layout_weight="1"
+            android:text="@string/title_health_check" />
+
+
+        <TextView
+            android:id="@+id/tv_active"
+            style="@style/CustomTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_3"
+            android:layout_weight="1"
+            android:text="@string/title_health_check" />
+
+        <TextView
+            android:id="@+id/tv_deaths"
+            style="@style/CustomTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/title_health_check" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="@dimen/margin_3"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_result_awaited"
+            style="@style/CustomTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_3"
+            android:text="@string/title_health_check" />
+
+        <TextView
+            android:id="@+id/tv_home_quarantined"
+            style="@style/CustomTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_3"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:text="@string/title_health_check" />
+
+        <TextView
+            android:id="@+id/tv_hospital_quarantined"
+            style="@style/CustomTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:text="@string/title_health_check" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_sub_div"
+        style="@style/CustomTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_16"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="@dimen/margin_16"
+        android:minHeight="@dimen/margin_40"
+        android:visibility="gone"
+        android:text="@string/title_sub_div" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="@dimen/margin_5"
+        android:layout_marginBottom="2dp"
+        android:background="@color/colorWhite"
+        android:visibility="gone" />
+
+</LinearLayout>

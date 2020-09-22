@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/colorWhite">
+
+    <LinearLayout
+        android:id="@+id/layout_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/header_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="100dp"
+            android:layout_marginTop="5dp"
+            android:paddingBottom="25dp"
+            android:background="@drawable/bg_curved_bottom_edges">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/title_realstats"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/txt_size_20"
+                android:textStyle="bold" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_realtimestas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_title"
+                android:layout_marginTop="5dp"
+                android:paddingBottom="@dimen/margin_10"
+                tools:listitem="@layout/item_covid_stats" />
+
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp"
+            android:paddingTop="10dp"
+           >
+            <TextView
+                android:id="@+id/tv_sub_division_stats"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/title_sub_div"
+                android:textColor="@color/colorPrimaryLite"
+                android:textSize="@dimen/txt_size_20" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_subdivision"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:listitem="@layout/item_sub_division" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
+            android:paddingTop="10dp"
+            >
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/title_other_div"
+                android:textColor="@color/colorPrimaryLite"
+                android:textSize="@dimen/txt_size_20" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_other_regions"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:listitem="@layout/item_sub_division" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:visibility="gone"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btn_healthcheck"
+                    style="@style/CustomButton2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:text="Health Check" />
+
+                <Button
+                    android:id="@+id/btn_news"
+                    style="@style/CustomButton2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="News" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_map"
+                style="@style/CustomButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Covid Map" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_emergency"
+                    style="@style/CustomButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:text="@string/str_emergency" />
+
+                <Button
+                    android:id="@+id/btn_helpline"
+                    style="@style/CustomButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/btn_emergency"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/str_helpline" />
+
+                <Button
+                    android:id="@+id/btn_doctor"
+                    style="@style/CustomButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/btn_helpline"
+                    android:layout_marginTop="3dp"
+                    android:padding="1dp"
+                    android:text="@string/str_doctor" />
+
+                <Button
+                    android:id="@+id/btn_gen_pass"
+                    style="@style/CustomButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/btn_doctor"
+                    android:layout_marginTop="3dp"
+                    android:padding="1dp"
+                    android:text="@string/str_gen_pass" />
+
+                <Button
+                    android:id="@+id/btn_report_gathering"
+                    style="@style/CustomButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/btn_gen_pass"
+                    android:layout_marginTop="3dp"
+                    android:padding="1dp"
+                    android:text="@string/str_report_gathering" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

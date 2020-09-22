@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/SubDivisionItembg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_10"
+        android:layout_marginEnd="@dimen/margin_10"
+        android:gravity="center"
+        android:minHeight="40dp"
+        android:text="This is title" />
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="@dimen/margin_10"
+        android:layout_marginEnd="@dimen/margin_10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_confirmed"
+            style="@style/CustomTextView_bg_stoke"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_3"
+            android:layout_weight="1"
+            android:text="@string/title_health_check" />
+
+        <TextView
+            android:id="@+id/tv_curved"
+            style="@style/CustomTextView_bg_stoke"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_3"
+            android:layout_weight="1"
+            android:text="@string/title_health_check" />
+
+        <TextView
+            android:id="@+id/tv_death"
+            style="@style/CustomTextView_bg_stoke"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/title_health_check" />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/sub_division_footer"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_5"
+        android:layout_marginBottom="@dimen/margin_10"
+        android:layout_marginStart="@dimen/margin_10"
+        android:layout_marginEnd="@dimen/margin_10"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_last_updated"
+            android:layout_alignParentStart="true"
+            android:text=""
+            android:textSize="@dimen/txt_size_12"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_source"
+            android:layout_alignParentEnd="true"
+            android:text="@string/str_source"
+            android:textColor="@color/colorPrimaryLite"
+            android:textSize="@dimen/txt_size_12"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

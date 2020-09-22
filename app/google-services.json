@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "503226040664",
+    "firebase_url": "https://cova-track.firebaseio.com",
+    "project_id": "cova-track",
+    "storage_bucket": "cova-track.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:503226040664:android:3db9377293d2de1e17e52d",
+        "android_client_info": {
+          "package_name": "com.covid.covtrack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "503226040664-6juga472rp6lijt3pva5hgh267fmevik.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.covid.covtrack",
+            "certificate_hash": "e9238321490abaf00f78d4d72c8a29378e59afe1"
+          }
+        },
+        {
+          "client_id": "503226040664-891tb0sov25v9ch18c4s6hd7ou1e5cb2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF0pnT72UveSbUlWA8CWuKJ7mO4QmrDSQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "503226040664-891tb0sov25v9ch18c4s6hd7ou1e5cb2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
